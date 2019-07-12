@@ -1,12 +1,17 @@
 input {
-	border-radius: 10px;
+	border-radius: 50px;
 	border:3px;
 	padding-left:20px;
 }
 form {
-	background-color: orange;
-	border-radius: 10px;
+	background-color: #fff;
+	border-radius: 50px;
+	color: black;
 }
 button {
 	margin-bottom: 40px;
+}
+
+.jumbotron{
+	background-color: lightgrey;
 }
