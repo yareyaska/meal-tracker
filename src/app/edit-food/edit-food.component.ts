@@ -6,7 +6,7 @@ import { Food } from '../food';
   styleUrls: ['./edit-food.component.css']
 })
 export class EditFoodComponent implements OnInit {
-	  @Input() foodToEdit: Food; //receives the input from the edit form and takes the blue print of the class Food for the contents to be edited
+	  @Input() foodToEdit: Food; 
   	@Output() doneClickedSender = new EventEmitter();
 
   constructor() {   }
